@@ -13,6 +13,7 @@ import java.util.UUID;
 @RestController
 @RequestMapping("/api/v1/customer")
 @AllArgsConstructor
+@Deprecated
 public class CustomerController {
     CustomerService customerService;
     @GetMapping("/{id}")

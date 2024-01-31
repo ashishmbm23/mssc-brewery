@@ -9,6 +9,7 @@ import java.util.UUID;
  * Created by jt on 2019-04-20.
  */
 @Service
+@Deprecated
 public class BeerServiceImpl implements BeerService {
     @Override
     public BeerDto getBeerById(UUID beerId) {

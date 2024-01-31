@@ -11,6 +11,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@Deprecated
 public class CustomerDto {
     private UUID id;
     private String name;
