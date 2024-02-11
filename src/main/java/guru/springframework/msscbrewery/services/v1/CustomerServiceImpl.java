@@ -8,7 +8,6 @@ import java.util.UUID;
 
 @Service
 @Slf4j
-@Deprecated
 public class CustomerServiceImpl implements CustomerService {
     @Override
     public CustomerDto getCustomerById(UUID customerId) {
